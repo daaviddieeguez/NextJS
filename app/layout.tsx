@@ -1,6 +1,14 @@
 import "./globals.css";
 import "@tailwindplus/elements";
 import { ElDisclosure, ElDropdown, ElMenu } from "@tailwindplus/elements/react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: {
+    default: "Megasur",
+    template: "%s | Megasur"
+  },
+};
 
 export default function DashboardLayout({
   children,
@@ -97,7 +105,7 @@ export default function DashboardLayout({
         </header>
         {/* Layout UI */}
         {/* Place children where you want to render a page or nested layout */}
-        <main className="flex-grow">{children}</main>
+        <main className="grow">{children}</main>
         <footer className="text-center bg-gray-800 text-gray-300 font-bold text-2xl">
           <h1>Footer</h1>
         </footer>
