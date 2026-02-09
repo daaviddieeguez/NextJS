@@ -14,7 +14,8 @@
     "nod": "^0.2.0",
     "node": "^25.6.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "zustand": "^5.0.11"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",

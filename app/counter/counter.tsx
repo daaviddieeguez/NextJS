@@ -7,8 +7,8 @@ export const Counter = () => {
   return (
     <div className="justify-items-center">
       <p>Count: {count}</p>
-      <div>
-        <button onClick={() => setCount(count + 1)}>Incrementar</button>
+      <div className="mx-auto w-max mt-8">
+        <button className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700" onClick={() => setCount(count + 1)}>Incrementar</button>
       </div>
     </div>
   );
